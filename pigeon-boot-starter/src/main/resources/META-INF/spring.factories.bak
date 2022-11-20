@@ -1,2 +1,3 @@
+--------baskbask---------------
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.yyb.framework.config.LogAutoConfiguration
