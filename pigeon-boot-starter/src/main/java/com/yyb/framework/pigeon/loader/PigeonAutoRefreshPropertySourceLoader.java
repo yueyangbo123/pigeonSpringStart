@@ -17,6 +17,11 @@ import java.util.concurrent.ConcurrentHashMap;
  * @version 1.0
  * @date 2022/11/20
  * @description
+ *
+ *
+ * 1. 简单的：完成了配置的加载
+ * 4. 下一个问题，数据变化了，如何回传？
+ * 这个再想办法解决
  */
 
 public class PigeonAutoRefreshPropertySourceLoader implements PropertySourceLoader {
