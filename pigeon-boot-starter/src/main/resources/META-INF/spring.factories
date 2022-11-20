@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.yyb.framework.pigeon.config.LogAutoConfiguration
+# PropertySource Loaders
+org.springframework.boot.env.PropertySourceLoader=\
+com.yyb.framework.pigeon.loader.PigeonAutoRefreshPropertySourceLoader
