@@ -1,5 +1,6 @@
 package com.yyb.framework.task;
 
+import com.yyb.framework.misc.GlobalExecutor;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
 
@@ -38,11 +39,18 @@ public class Product {
             }
         }
     }
+    /*
+    *   Nacos是这样的，它有自己的线程
+    * @PostConstruct
+    public void init() {
+    GlobalExecutor.submitDistroNotifyTask(notifier);
+    }*/
 
     @PostConstruct
     public void init() {
         System.out.println("开始执行Product-init后置处理器");
-        new Thread(new Task()).start();
+        /*        new Thread(new Task()).start();*/
+        GlobalExecutor.submitDistroNotifyTask(new Task());
     }
 
 }
