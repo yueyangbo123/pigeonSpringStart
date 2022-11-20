@@ -9,10 +9,18 @@ import javax.annotation.PostConstruct;
  * @author YueYB
  * @version 1.0
  * @date 2022/11/20
- * @description
+ * @description <p>
+ * <p>
+ * 不停的运行Product.task
+ * 不停的运行Product.task
+ * 不停的运行Product.task
+ * 因为已经管理，这里可以不用写组件注解，因为已经的Bean了
+ * <p>
+ * <p>
+ * -- 所以 @PostConstruct可以生效
+ * </p>
  */
 
-@Component
 public class Product {
 
     public static class Task implements Runnable {
