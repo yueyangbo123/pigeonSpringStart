@@ -14,13 +14,12 @@
  * limitations under the License.
  */
 
-package com.yyb.framework.utils;
+package com.yyb.framework.pigeon.utils;
 
 
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
-import java.nio.charset.Charset;
 import java.util.Collection;
 import java.util.Locale;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yyb.framework.utils;
+package com.yyb.framework.pigeon.utils;
 
 import org.springframework.core.ResolvableType;
 

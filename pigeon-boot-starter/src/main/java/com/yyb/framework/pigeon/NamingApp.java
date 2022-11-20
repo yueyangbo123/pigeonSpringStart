@@ -1,4 +1,4 @@
-package com.yyb.framework;
+package com.yyb.framework.pigeon;
 
 /**
  * @author YueYB

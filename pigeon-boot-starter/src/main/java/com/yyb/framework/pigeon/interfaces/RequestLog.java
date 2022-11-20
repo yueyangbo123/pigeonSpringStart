@@ -1,4 +1,4 @@
-package com.yyb.framework.interfaces;
+package com.yyb.framework.pigeon.interfaces;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.yyb.framework.config;
+package com.yyb.framework.pigeon.config;
 
 import lombok.Getter;
 import lombok.Setter;

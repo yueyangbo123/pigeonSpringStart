@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yyb.framework.misc;
+package com.yyb.framework.pigeon.misc;
 
 import org.slf4j.Logger;
 

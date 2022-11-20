@@ -1,8 +1,6 @@
-package com.yyb.framework.task;
+package com.yyb.framework.pigeon.task;
 
-import com.yyb.framework.misc.GlobalExecutor;
-import lombok.SneakyThrows;
-import org.springframework.stereotype.Component;
+import com.yyb.framework.pigeon.misc.GlobalExecutor;
 
 import javax.annotation.PostConstruct;
 

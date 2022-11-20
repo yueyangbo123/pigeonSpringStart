@@ -1,6 +1,6 @@
-package com.yyb.framework.interceptors;
+package com.yyb.framework.pigeon.interceptors;
 
-import com.yyb.framework.interfaces.RequestLog;
+import com.yyb.framework.pigeon.interfaces.RequestLog;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;

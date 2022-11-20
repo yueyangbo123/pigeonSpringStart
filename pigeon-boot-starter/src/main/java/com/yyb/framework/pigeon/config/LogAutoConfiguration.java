@@ -1,13 +1,10 @@
-package com.yyb.framework.config;
+package com.yyb.framework.pigeon.config;
 
-import com.yyb.framework.interceptors.LogInterceptor;
-import com.yyb.framework.task.Product;
+import com.yyb.framework.pigeon.task.Product;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * @author YueYB
