@@ -38,7 +38,7 @@ public class Product {
         }
     }
     /*
-    *   Nacos是这样的，它有自己的线程
+    *   Nacos是这样，它有自己的线程池来处理
     * @PostConstruct
     public void init() {
     GlobalExecutor.submitDistroNotifyTask(notifier);
